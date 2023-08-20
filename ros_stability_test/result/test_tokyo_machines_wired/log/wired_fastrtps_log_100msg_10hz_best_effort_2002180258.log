@@ -1,0 +1,190 @@
+
+Starting test run test_remote.test_remote.launch_tests[4KB, 0]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-02-18-02-58-43-575770-skylake-6404
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ssh-1]: process started with pid [6410]
+[INFO] [ssh-2]: process started with pid [6411]
+[ssh-1] [0m[INFO] [1581994734.243919889] [sender_0_0]: Ready to send test data message for topic /TOPIC_4KB_0[0m
+[ssh-1] [0m[INFO] [1581994744.244375092] [sender_0_0]: Send 100 messages with frequency 10.000000[0m
+[ssh-1] [0m[INFO] [1581994749.244605420] [sender_0_0]: Send finished message[0m
+[ssh-2] [0m[INFO] [1581994749.245208953] [receiver_0_1]: Receive finish message[0m
+[ssh-2] [0m[INFO] [1581994749.245387560] [receiver_0_1]: Send result message[0m
+[ssh-1] [0m[INFO] [1581994749.245955040] [sender_0_0]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_4KB_0 with message_size(4KB), loop_count(100), frequency(10.000000)[0m
+[ssh-1] [0m[INFO] [1581994749.246047637] [sender_0_0]:            name                          ,   average(s),       min(s),       max(s),   lost count[0m
+[ssh-1] [0m[INFO] [1581994749.246095569] [sender_0_0]: get result skylake-TO-PowerEdge-T110-II  ,  0.000515400,  0.000452164,  0.000735631,            0[0m
+[ssh-1] [0m[INFO] [1581994749.246154311] [sender_0_0]: exit by launch_test[0m
+[INFO] [ssh-2]: sending signal 'SIGINT' to process[ssh-2]
+[INFO] [ssh-1]: sending signal 'SIGINT' to process[ssh-1]
+[INFO] [ssh-2]: process has finished cleanly [pid 6411]
+[INFO] [ssh-1]: process has finished cleanly [pid 6410]
+
+Starting test run test_remote.test_remote.launch_tests[4KB, 1]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-02-18-02-58-43-575770-skylake-6404
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ssh-3]: process started with pid [6473]
+[INFO] [ssh-4]: process started with pid [6474]
+[ssh-4] [0m[INFO] [1581994760.164888524] [sender_1_1]: Ready to send test data message for topic /TOPIC_4KB_1[0m
+[ssh-4] [0m[INFO] [1581994770.166004152] [sender_1_1]: Send 100 messages with frequency 10.000000[0m
+[ssh-4] [0m[INFO] [1581994775.166127161] [sender_1_1]: Send finished message[0m
+[ssh-3] [0m[INFO] [1581994775.166751125] [receiver_1_0]: Receive finish message[0m
+[ssh-3] [0m[INFO] [1581994775.167050781] [receiver_1_0]: Send result message[0m
+[ssh-4] [0m[INFO] [1581994775.167648800] [sender_1_1]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_4KB_1 with message_size(4KB), loop_count(100), frequency(10.000000)[0m
+[ssh-4] [0m[INFO] [1581994775.167709366] [sender_1_1]:            name                          ,   average(s),       min(s),       max(s),   lost count[0m
+[ssh-4] [0m[INFO] [1581994775.167740585] [sender_1_1]: get result PowerEdge-T110-II-TO-skylake  ,  0.000474937,  0.000433687,  0.000763189,            0[0m
+[ssh-4] [0m[INFO] [1581994775.167771626] [sender_1_1]: exit by launch_test[0m
+[INFO] [ssh-4]: sending signal 'SIGINT' to process[ssh-4]
+[INFO] [ssh-3]: sending signal 'SIGINT' to process[ssh-3]
+[INFO] [ssh-3]: process has finished cleanly [pid 6473]
+[INFO] [ssh-4]: process has finished cleanly [pid 6474]
+
+Starting test run test_remote.test_remote.launch_tests[64KB, 0]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-02-18-02-58-43-575770-skylake-6404
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ssh-5]: process started with pid [6536]
+[INFO] [ssh-6]: process started with pid [6537]
+[ssh-5] [0m[INFO] [1581994785.896985371] [sender_0_0]: Ready to send test data message for topic /TOPIC_64KB_0[0m
+[ssh-5] [0m[INFO] [1581994795.897436083] [sender_0_0]: Send 100 messages with frequency 10.000000[0m
+[ssh-5] [0m[INFO] [1581994800.897665025] [sender_0_0]: Send finished message[0m
+[ssh-6] [0m[INFO] [1581994800.898274066] [receiver_0_1]: Receive finish message[0m
+[ssh-6] [0m[INFO] [1581994800.898466181] [receiver_0_1]: Send result message[0m
+[ssh-5] [0m[INFO] [1581994800.899008255] [sender_0_0]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_64KB_0 with message_size(64KB), loop_count(100), frequency(10.000000)[0m
+[ssh-5] [0m[INFO] [1581994800.899102208] [sender_0_0]:            name                          ,   average(s),       min(s),       max(s),   lost count[0m
+[ssh-5] [0m[INFO] [1581994800.899155108] [sender_0_0]: get result skylake-TO-PowerEdge-T110-II  ,  0.001111094,  0.001049320,  0.001671329,            0[0m
+[ssh-5] [0m[INFO] [1581994800.899197130] [sender_0_0]: exit by launch_test[0m
+[INFO] [ssh-6]: sending signal 'SIGINT' to process[ssh-6]
+[INFO] [ssh-5]: sending signal 'SIGINT' to process[ssh-5]
+[INFO] [ssh-5]: process has finished cleanly [pid 6536]
+[INFO] [ssh-6]: process has finished cleanly [pid 6537]
+
+Starting test run test_remote.test_remote.launch_tests[64KB, 1]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-02-18-02-58-43-575770-skylake-6404
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ssh-7]: process started with pid [6599]
+[INFO] [ssh-8]: process started with pid [6600]
+[ssh-8] [0m[INFO] [1581994811.810222018] [sender_1_1]: Ready to send test data message for topic /TOPIC_64KB_1[0m
+[ssh-8] [0m[INFO] [1581994821.811363141] [sender_1_1]: Send 100 messages with frequency 10.000000[0m
+[ssh-8] [0m[INFO] [1581994826.811531452] [sender_1_1]: Send finished message[0m
+[ssh-7] [0m[INFO] [1581994826.812102648] [receiver_1_0]: Receive finish message[0m
+[ssh-7] [0m[INFO] [1581994826.812379550] [receiver_1_0]: Send result message[0m
+[ssh-8] [0m[INFO] [1581994826.812939253] [sender_1_1]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_64KB_1 with message_size(64KB), loop_count(100), frequency(10.000000)[0m
+[ssh-8] [0m[INFO] [1581994826.813001088] [sender_1_1]:            name                          ,   average(s),       min(s),       max(s),   lost count[0m
+[ssh-8] [0m[INFO] [1581994826.813030903] [sender_1_1]: get result PowerEdge-T110-II-TO-skylake  ,  0.001239732,  0.001112170,  0.001844300,            0[0m
+[ssh-8] [0m[INFO] [1581994826.813063384] [sender_1_1]: exit by launch_test[0m
+[INFO] [ssh-8]: sending signal 'SIGINT' to process[ssh-8]
+[INFO] [ssh-7]: sending signal 'SIGINT' to process[ssh-7]
+[INFO] [ssh-8]: process has finished cleanly [pid 6600]
+[INFO] [ssh-7]: process has finished cleanly [pid 6599]
+
+Starting test run test_remote.test_remote.launch_tests[256KB, 0]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-02-18-02-58-43-575770-skylake-6404
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ssh-9]: process started with pid [6662]
+[INFO] [ssh-10]: process started with pid [6663]
+[ssh-9] [0m[INFO] [1581994837.544769274] [sender_0_0]: Ready to send test data message for topic /TOPIC_256KB_0[0m
+[ssh-9] [0m[INFO] [1581994847.545370252] [sender_0_0]: Send 100 messages with frequency 10.000000[0m
+[ssh-9] [0m[INFO] [1581994852.545604059] [sender_0_0]: Send finished message[0m
+[ssh-10] [0m[INFO] [1581994852.546224385] [receiver_0_1]: Receive finish message[0m
+[ssh-10] [0m[INFO] [1581994852.546402400] [receiver_0_1]: Send result message[0m
+[ssh-9] [0m[INFO] [1581994852.546910997] [sender_0_0]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_256KB_0 with message_size(256KB), loop_count(100), frequency(10.000000)[0m
+[ssh-9] [0m[INFO] [1581994852.547010914] [sender_0_0]:            name                          ,   average(s),       min(s),       max(s),   lost count[0m
+[ssh-9] [0m[INFO] [1581994852.547050073] [sender_0_0]: get result skylake-TO-PowerEdge-T110-II  ,  0.002839376,  0.002792952,  0.003771294,            0[0m
+[ssh-9] [0m[INFO] [1581994852.547098888] [sender_0_0]: exit by launch_test[0m
+[INFO] [ssh-10]: sending signal 'SIGINT' to process[ssh-10]
+[INFO] [ssh-9]: sending signal 'SIGINT' to process[ssh-9]
+[INFO] [ssh-10]: process has finished cleanly [pid 6663]
+[INFO] [ssh-9]: process has finished cleanly [pid 6662]
+
+Starting test run test_remote.test_remote.launch_tests[256KB, 1]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-02-18-02-58-43-575770-skylake-6404
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ssh-11]: process started with pid [6725]
+[INFO] [ssh-12]: process started with pid [6726]
+[ssh-12] [0m[INFO] [1581994863.470300069] [sender_1_1]: Ready to send test data message for topic /TOPIC_256KB_1[0m
+[ssh-12] [0m[INFO] [1581994873.471484246] [sender_1_1]: Send 100 messages with frequency 10.000000[0m
+[ssh-12] [0m[INFO] [1581994878.471647595] [sender_1_1]: Send finished message[0m
+[ssh-11] [0m[INFO] [1581994878.473385680] [receiver_1_0]: Receive finish message[0m
+[ssh-11] [0m[INFO] [1581994878.473661687] [receiver_1_0]: Send result message[0m
+[ssh-12] [0m[INFO] [1581994878.474290408] [sender_1_1]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_256KB_1 with message_size(256KB), loop_count(100), frequency(10.000000)[0m
+[ssh-12] [0m[INFO] [1581994878.474352313] [sender_1_1]:            name                          ,   average(s),       min(s),       max(s),   lost count[0m
+[ssh-12] [0m[INFO] [1581994878.474382177] [sender_1_1]: get result PowerEdge-T110-II-TO-skylake  ,  0.003347269,  0.003186744,  0.004290241,            0[0m
+[ssh-12] [0m[INFO] [1581994878.474414511] [sender_1_1]: exit by launch_test[0m
+[INFO] [ssh-12]: sending signal 'SIGINT' to process[ssh-12]
+[INFO] [ssh-11]: sending signal 'SIGINT' to process[ssh-11]
+[INFO] [ssh-12]: process has finished cleanly [pid 6726]
+[INFO] [ssh-11]: process has finished cleanly [pid 6725]
+
+Starting test run test_remote.test_remote.launch_tests[2MB, 0]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-02-18-02-58-43-575770-skylake-6404
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ssh-13]: process started with pid [6788]
+[INFO] [ssh-14]: process started with pid [6789]
+[ssh-13] [0m[INFO] [1581994889.153393303] [sender_0_0]: Ready to send test data message for topic /TOPIC_2MB_0[0m
+[ssh-13] [0m[INFO] [1581994899.154968412] [sender_0_0]: Send 100 messages with frequency 10.000000[0m
+[ssh-13] [0m[INFO] [1581994904.158904671] [sender_0_0]: Send finished message[0m
+[ssh-14] [0m[INFO] [1581994904.159550553] [receiver_0_1]: Receive finish message[0m
+[ssh-14] [0m[INFO] [1581994904.159770481] [receiver_0_1]: Send result message[0m
+[ssh-13] [0m[INFO] [1581994904.160159568] [sender_0_0]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_2MB_0 with message_size(2MB), loop_count(100), frequency(10.000000)[0m
+[ssh-13] [0m[INFO] [1581994904.160187650] [sender_0_0]:            name                          ,   average(s),       min(s),       max(s),   lost count[0m
+[ssh-13] [0m[INFO] [1581994904.160207948] [sender_0_0]: get result skylake-TO-PowerEdge-T110-II  ,  0.019011549,  0.018811876,  0.022225239,            0[0m
+[ssh-13] [0m[INFO] [1581994904.160220714] [sender_0_0]: exit by launch_test[0m
+[INFO] [ssh-14]: sending signal 'SIGINT' to process[ssh-14]
+[INFO] [ssh-13]: sending signal 'SIGINT' to process[ssh-13]
+[INFO] [ssh-14]: process has finished cleanly [pid 6789]
+[INFO] [ssh-13]: process has finished cleanly [pid 6788]
+
+Starting test run test_remote.test_remote.launch_tests[2MB, 1]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-02-18-02-58-43-575770-skylake-6404
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ssh-15]: process started with pid [6852]
+[INFO] [ssh-16]: process started with pid [6853]
+[ssh-16] [0m[INFO] [1581994915.073398075] [sender_1_1]: Ready to send test data message for topic /TOPIC_2MB_1[0m
+[ssh-16] [0m[INFO] [1581994925.075244470] [sender_1_1]: Send 100 messages with frequency 10.000000[0m
+[ssh-16] [0m[INFO] [1581994930.075430744] [sender_1_1]: Send finished message[0m
+[ssh-15] [0m[INFO] [1581994930.076036410] [receiver_1_0]: Receive finish message[0m
+[ssh-15] [0m[INFO] [1581994930.076310862] [receiver_1_0]: Send result message[0m
+[ssh-16] [0m[INFO] [1581994930.076881290] [sender_1_1]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_2MB_1 with message_size(2MB), loop_count(100), frequency(10.000000)[0m
+[ssh-16] [0m[INFO] [1581994930.076947849] [sender_1_1]:            name                          ,   average(s),       min(s),       max(s),   lost count[0m
+[ssh-16] [0m[INFO] [1581994930.076977849] [sender_1_1]: get result PowerEdge-T110-II-TO-skylake  ,  0.023061278,  0.022558823,  0.027497030,            0[0m
+[ssh-16] [0m[INFO] [1581994930.077010235] [sender_1_1]: exit by launch_test[0m
+[INFO] [ssh-16]: sending signal 'SIGINT' to process[ssh-16]
+[INFO] [ssh-15]: sending signal 'SIGINT' to process[ssh-15]
+[INFO] [ssh-16]: process has finished cleanly [pid 6853]
+[INFO] [ssh-15]: process has finished cleanly [pid 6852]
+
+Starting test run test_remote.test_remote.launch_tests[8MB, 0]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-02-18-02-58-43-575770-skylake-6404
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ssh-17]: process started with pid [6915]
+[INFO] [ssh-18]: process started with pid [6916]
+[ssh-17] [0m[INFO] [1581994940.812071118] [sender_0_0]: Ready to send test data message for topic /TOPIC_8MB_0[0m
+[ssh-17] [0m[INFO] [1581994950.818316620] [sender_0_0]: Send 100 messages with frequency 10.000000[0m
+[ssh-17] [0m[INFO] [1581994955.818580009] [sender_0_0]: Send finished message[0m
+[ssh-18] [0m[INFO] [1581994955.819214882] [receiver_0_1]: Receive finish message[0m
+[ssh-18] [0m[INFO] [1581994955.819409807] [receiver_0_1]: Send result message[0m
+[ssh-17] [0m[INFO] [1581994955.819969809] [sender_0_0]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_8MB_0 with message_size(8MB), loop_count(100), frequency(10.000000)[0m
+[ssh-17] [0m[INFO] [1581994955.820065679] [sender_0_0]:            name                          ,   average(s),       min(s),       max(s),   lost count[0m
+[ssh-17] [0m[INFO] [1581994955.820105065] [sender_0_0]: get result skylake-TO-PowerEdge-T110-II  ,  0.075282578,  0.074775712,  0.082075977,            0[0m
+[ssh-17] [0m[INFO] [1581994955.820169298] [sender_0_0]: exit by launch_test[0m
+[INFO] [ssh-18]: sending signal 'SIGINT' to process[ssh-18]
+[INFO] [ssh-17]: sending signal 'SIGINT' to process[ssh-17]
+[INFO] [ssh-18]: process has finished cleanly [pid 6916]
+[INFO] [ssh-17]: process has finished cleanly [pid 6915]
+
+Starting test run test_remote.test_remote.launch_tests[8MB, 1]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-02-18-02-58-43-575770-skylake-6404
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ssh-19]: process started with pid [6978]
+[INFO] [ssh-20]: process started with pid [6979]
+[ssh-20] [0m[INFO] [1581994966.755560180] [sender_1_1]: Ready to send test data message for topic /TOPIC_8MB_1[0m
+[ssh-20] [0m[INFO] [1581994976.760739402] [sender_1_1]: Send 100 messages with frequency 10.000000[0m
+[ssh-20] [0m[INFO] [1581994981.760926428] [sender_1_1]: Send finished message[0m
+[ssh-19] [0m[INFO] [1581994981.761483280] [receiver_1_0]: Receive finish message[0m
+[ssh-19] [0m[INFO] [1581994981.761757489] [receiver_1_0]: Send result message[0m
+[ssh-20] [0m[INFO] [1581994981.762378941] [sender_1_1]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_8MB_1 with message_size(8MB), loop_count(100), frequency(10.000000)[0m
+[ssh-20] [0m[INFO] [1581994981.762442582] [sender_1_1]:            name                          ,   average(s),       min(s),       max(s),   lost count[0m
+[ssh-20] [0m[INFO] [1581994981.762472695] [sender_1_1]: get result PowerEdge-T110-II-TO-skylake  ,  0.092644108,  0.091764754,  0.103377050,            1[0m
+[ssh-20] [0m[INFO] [1581994981.762503553] [sender_1_1]: exit by launch_test[0m
+[INFO] [ssh-20]: sending signal 'SIGINT' to process[ssh-20]
+[INFO] [ssh-19]: sending signal 'SIGINT' to process[ssh-19]
+[INFO] [ssh-20]: process has finished cleanly [pid 6979]
+[INFO] [ssh-19]: process has finished cleanly [pid 6978]

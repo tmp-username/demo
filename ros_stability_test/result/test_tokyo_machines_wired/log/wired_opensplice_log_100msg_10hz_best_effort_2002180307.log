@@ -1,0 +1,370 @@
+
+Starting test run test_remote.test_remote.launch_tests[4KB, 0]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-02-18-03-07-51-739576-skylake-7880
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ssh-1]: process started with pid [7886]
+[INFO] [ssh-2]: process started with pid [7887]
+[ssh-1] ========================================================================================
+[ssh-1] Report      : WARNING
+[ssh-1] Date        : 2020-02-18T03:07:52+0000
+[ssh-1] Description : using network interface enp0s31f6 (43.4.1.195) selected arbitrarily from: enp0s31f6, docker0
+[ssh-1] 
+[ssh-1] Node        : skylake
+[ssh-1] Process     : sender <7941>
+[ssh-1] Thread      : ddsi2 7f8161a15700
+[ssh-1] Internals   : 6.9.190705OSS///ddsi2/q_nwif.c/989/0/1581995272.404491984/28
+[ssh-2] ========================================================================================
+[ssh-2] Report      : WARNING
+[ssh-2] Date        : 2020-02-18T03:07:52+0000
+[ssh-2] Description : using network interface eno1 (43.4.2.253) selected arbitrarily from: eno1, docker0
+[ssh-2] 
+[ssh-2] Node        : ubuntu1804-PowerEdge-T110-II
+[ssh-2] Process     : receiver <7373>
+[ssh-2] Thread      : ddsi2 7f94fa348700
+[ssh-2] Internals   : 6.9.190705OSS///ddsi2/q_nwif.c/989/0/1581995272.661517763/28
+[ssh-1] [0m[INFO] [1581995283.518831251] [sender_0_0]: Ready to send test data message for topic /TOPIC_4KB_0[0m
+[ssh-1] [0m[INFO] [1581995293.519464588] [sender_0_0]: Send 100 messages with frequency 10.000000[0m
+[ssh-1] [0m[INFO] [1581995298.519708072] [sender_0_0]: Send finished message[0m
+[ssh-2] [0m[INFO] [1581995298.520500463] [receiver_0_1]: Receive finish message[0m
+[ssh-2] [0m[INFO] [1581995298.520709894] [receiver_0_1]: Send result message[0m
+[ssh-1] [0m[INFO] [1581995298.521441113] [sender_0_0]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_4KB_0 with message_size(4KB), loop_count(100), frequency(10.000000)[0m
+[ssh-1] [0m[INFO] [1581995298.521573676] [sender_0_0]:            name                          ,   average(s),       min(s),       max(s),   lost count[0m
+[ssh-1] [0m[INFO] [1581995298.521634426] [sender_0_0]: get result skylake-TO-PowerEdge-T110-II  ,  0.000637909,  0.000587973,  0.000972854,            0[0m
+[ssh-1] [0m[INFO] [1581995298.521714942] [sender_0_0]: exit by launch_test[0m
+[INFO] [ssh-2]: sending signal 'SIGINT' to process[ssh-2]
+[INFO] [ssh-1]: sending signal 'SIGINT' to process[ssh-1]
+[INFO] [ssh-1]: process has finished cleanly [pid 7886]
+[INFO] [ssh-2]: process has finished cleanly [pid 7887]
+
+Starting test run test_remote.test_remote.launch_tests[4KB, 1]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-02-18-03-07-51-739576-skylake-7880
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ssh-3]: process started with pid [7969]
+[INFO] [ssh-4]: process started with pid [7970]
+[ssh-3] ========================================================================================
+[ssh-3] Report      : WARNING
+[ssh-3] Date        : 2020-02-18T03:08:19+0000
+[ssh-3] Description : using network interface enp0s31f6 (43.4.1.195) selected arbitrarily from: enp0s31f6, docker0
+[ssh-3] 
+[ssh-3] Node        : skylake
+[ssh-3] Process     : receiver <8024>
+[ssh-3] Thread      : ddsi2 7fc623946700
+[ssh-3] Internals   : 6.9.190705OSS///ddsi2/q_nwif.c/989/0/1581995299.270510427/28
+[ssh-4] ========================================================================================
+[ssh-4] Report      : WARNING
+[ssh-4] Date        : 2020-02-18T03:08:19+0000
+[ssh-4] Description : using network interface eno1 (43.4.2.253) selected arbitrarily from: eno1, docker0
+[ssh-4] 
+[ssh-4] Node        : ubuntu1804-PowerEdge-T110-II
+[ssh-4] Process     : sender <7453>
+[ssh-4] Thread      : ddsi2 7fdb7bd5c700
+[ssh-4] Internals   : 6.9.190705OSS///ddsi2/q_nwif.c/989/0/1581995299.445242329/28
+[ssh-4] [0m[INFO] [1581995310.559148353] [sender_1_1]: Ready to send test data message for topic /TOPIC_4KB_1[0m
+[ssh-4] [0m[INFO] [1581995320.560357041] [sender_1_1]: Send 100 messages with frequency 10.000000[0m
+[ssh-4] [0m[INFO] [1581995325.560527286] [sender_1_1]: Send finished message[0m
+[ssh-3] [0m[INFO] [1581995325.561299978] [receiver_1_0]: Receive finish message[0m
+[ssh-3] [0m[INFO] [1581995325.561612690] [receiver_1_0]: Send result message[0m
+[ssh-4] [0m[INFO] [1581995325.562244697] [sender_1_1]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_4KB_1 with message_size(4KB), loop_count(100), frequency(10.000000)[0m
+[ssh-4] [0m[INFO] [1581995325.562334483] [sender_1_1]:            name                          ,   average(s),       min(s),       max(s),   lost count[0m
+[ssh-4] [0m[INFO] [1581995325.562378083] [sender_1_1]: get result PowerEdge-T110-II-TO-skylake  ,  0.000632828,  0.000571122,  0.000957513,            0[0m
+[ssh-4] [0m[INFO] [1581995325.562432636] [sender_1_1]: exit by launch_test[0m
+[INFO] [ssh-4]: sending signal 'SIGINT' to process[ssh-4]
+[INFO] [ssh-3]: sending signal 'SIGINT' to process[ssh-3]
+[INFO] [ssh-4]: process has finished cleanly [pid 7970]
+[INFO] [ssh-3]: process has finished cleanly [pid 7969]
+
+Starting test run test_remote.test_remote.launch_tests[64KB, 0]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-02-18-03-07-51-739576-skylake-7880
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ssh-5]: process started with pid [8052]
+[INFO] [ssh-6]: process started with pid [8053]
+[ssh-5] ========================================================================================
+[ssh-5] Report      : WARNING
+[ssh-5] Date        : 2020-02-18T03:08:46+0000
+[ssh-5] Description : using network interface enp0s31f6 (43.4.1.195) selected arbitrarily from: enp0s31f6, docker0
+[ssh-5] 
+[ssh-5] Node        : skylake
+[ssh-5] Process     : sender <8107>
+[ssh-5] Thread      : ddsi2 7f508420c700
+[ssh-5] Internals   : 6.9.190705OSS///ddsi2/q_nwif.c/989/0/1581995326.295337064/28
+[ssh-6] ========================================================================================
+[ssh-6] Report      : WARNING
+[ssh-6] Date        : 2020-02-18T03:08:46+0000
+[ssh-6] Description : using network interface eno1 (43.4.2.253) selected arbitrarily from: eno1, docker0
+[ssh-6] 
+[ssh-6] Node        : ubuntu1804-PowerEdge-T110-II
+[ssh-6] Process     : receiver <7533>
+[ssh-6] Thread      : ddsi2 7fc0edffc700
+[ssh-6] Internals   : 6.9.190705OSS///ddsi2/q_nwif.c/989/0/1581995326.500579148/28
+[ssh-5] [0m[INFO] [1581995337.409425244] [sender_0_0]: Ready to send test data message for topic /TOPIC_64KB_0[0m
+[ssh-5] [0m[INFO] [1581995347.410360208] [sender_0_0]: Send 100 messages with frequency 10.000000[0m
+[ssh-5] [0m[INFO] [1581995352.410610162] [sender_0_0]: Send finished message[0m
+[ssh-6] [0m[INFO] [1581995352.411393973] [receiver_0_1]: Receive finish message[0m
+[ssh-6] [0m[INFO] [1581995352.411587840] [receiver_0_1]: Send result message[0m
+[ssh-5] [0m[INFO] [1581995352.412314039] [sender_0_0]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_64KB_0 with message_size(64KB), loop_count(100), frequency(10.000000)[0m
+[ssh-5] [0m[INFO] [1581995352.412478715] [sender_0_0]:            name                          ,   average(s),       min(s),       max(s),   lost count[0m
+[ssh-5] [0m[INFO] [1581995352.412582007] [sender_0_0]: get result skylake-TO-PowerEdge-T110-II  ,  0.001647473,  0.001494471,  0.002314066,            0[0m
+[ssh-5] [0m[INFO] [1581995352.412696730] [sender_0_0]: exit by launch_test[0m
+[INFO] [ssh-6]: sending signal 'SIGINT' to process[ssh-6]
+[INFO] [ssh-5]: sending signal 'SIGINT' to process[ssh-5]
+[INFO] [ssh-6]: process has finished cleanly [pid 8053]
+[INFO] [ssh-5]: process has finished cleanly [pid 8052]
+
+Starting test run test_remote.test_remote.launch_tests[64KB, 1]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-02-18-03-07-51-739576-skylake-7880
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ssh-7]: process started with pid [8135]
+[INFO] [ssh-8]: process started with pid [8136]
+[ssh-7] ========================================================================================
+[ssh-7] Report      : WARNING
+[ssh-7] Date        : 2020-02-18T03:09:13+0000
+[ssh-7] Description : using network interface enp0s31f6 (43.4.1.195) selected arbitrarily from: enp0s31f6, docker0
+[ssh-7] 
+[ssh-7] Node        : skylake
+[ssh-7] Process     : receiver <8190>
+[ssh-7] Thread      : ddsi2 7f6b93d5c700
+[ssh-7] Internals   : 6.9.190705OSS///ddsi2/q_nwif.c/989/0/1581995353.091458920/28
+[ssh-8] ========================================================================================
+[ssh-8] Report      : WARNING
+[ssh-8] Date        : 2020-02-18T03:09:13+0000
+[ssh-8] Description : using network interface eno1 (43.4.2.253) selected arbitrarily from: eno1, docker0
+[ssh-8] 
+[ssh-8] Node        : ubuntu1804-PowerEdge-T110-II
+[ssh-8] Process     : sender <7613>
+[ssh-8] Thread      : ddsi2 7fd7cc104700
+[ssh-8] Internals   : 6.9.190705OSS///ddsi2/q_nwif.c/989/0/1581995353.340920272/28
+[ssh-8] [0m[INFO] [1581995364.457375286] [sender_1_1]: Ready to send test data message for topic /TOPIC_64KB_1[0m
+[ssh-8] [0m[INFO] [1581995374.458737071] [sender_1_1]: Send 100 messages with frequency 10.000000[0m
+[ssh-8] [0m[INFO] [1581995379.458908359] [sender_1_1]: Send finished message[0m
+[ssh-7] [0m[INFO] [1581995379.459652422] [receiver_1_0]: Receive finish message[0m
+[ssh-7] [0m[INFO] [1581995379.459952469] [receiver_1_0]: Send result message[0m
+[ssh-8] [0m[INFO] [1581995379.460548312] [sender_1_1]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_64KB_1 with message_size(64KB), loop_count(100), frequency(10.000000)[0m
+[ssh-8] [0m[INFO] [1581995379.460634573] [sender_1_1]:            name                          ,   average(s),       min(s),       max(s),   lost count[0m
+[ssh-8] [0m[INFO] [1581995379.460675386] [sender_1_1]: get result PowerEdge-T110-II-TO-skylake  ,  0.001758745,  0.001494644,  0.002367745,            0[0m
+[ssh-8] [0m[INFO] [1581995379.460728605] [sender_1_1]: exit by launch_test[0m
+[INFO] [ssh-8]: sending signal 'SIGINT' to process[ssh-8]
+[INFO] [ssh-7]: sending signal 'SIGINT' to process[ssh-7]
+[INFO] [ssh-8]: process has finished cleanly [pid 8136]
+[INFO] [ssh-7]: process has finished cleanly [pid 8135]
+
+Starting test run test_remote.test_remote.launch_tests[256KB, 0]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-02-18-03-07-51-739576-skylake-7880
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ssh-9]: process started with pid [8218]
+[INFO] [ssh-10]: process started with pid [8219]
+[ssh-9] ========================================================================================
+[ssh-9] Report      : WARNING
+[ssh-9] Date        : 2020-02-18T03:09:40+0000
+[ssh-9] Description : using network interface enp0s31f6 (43.4.1.195) selected arbitrarily from: enp0s31f6, docker0
+[ssh-9] 
+[ssh-9] Node        : skylake
+[ssh-9] Process     : sender <8273>
+[ssh-9] Thread      : ddsi2 7f66d2c19700
+[ssh-9] Internals   : 6.9.190705OSS///ddsi2/q_nwif.c/989/0/1581995380.203813297/28
+[ssh-10] ========================================================================================
+[ssh-10] Report      : WARNING
+[ssh-10] Date        : 2020-02-18T03:09:40+0000
+[ssh-10] Description : using network interface eno1 (43.4.2.253) selected arbitrarily from: eno1, docker0
+[ssh-10] 
+[ssh-10] Node        : ubuntu1804-PowerEdge-T110-II
+[ssh-10] Process     : receiver <7693>
+[ssh-10] Thread      : ddsi2 7f836cfc2700
+[ssh-10] Internals   : 6.9.190705OSS///ddsi2/q_nwif.c/989/0/1581995380.393704986/28
+[ssh-9] [0m[INFO] [1581995391.318250993] [sender_0_0]: Ready to send test data message for topic /TOPIC_256KB_0[0m
+[ssh-9] [0m[INFO] [1581995401.320476730] [sender_0_0]: Send 100 messages with frequency 10.000000[0m
+[ssh-9] [0m[INFO] [1581995406.320731462] [sender_0_0]: Send finished message[0m
+[ssh-10] [0m[INFO] [1581995406.321491104] [receiver_0_1]: Receive finish message[0m
+[ssh-10] [0m[INFO] [1581995406.321685427] [receiver_0_1]: Send result message[0m
+[ssh-9] [0m[INFO] [1581995406.322309197] [sender_0_0]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_256KB_0 with message_size(256KB), loop_count(100), frequency(10.000000)[0m
+[ssh-9] [0m[INFO] [1581995406.322479438] [sender_0_0]:            name                          ,   average(s),       min(s),       max(s),   lost count[0m
+[ssh-9] [0m[INFO] [1581995406.322589243] [sender_0_0]: get result skylake-TO-PowerEdge-T110-II  ,  0.004619851,  0.004281139,  0.006011747,            0[0m
+[ssh-9] [0m[INFO] [1581995406.322661833] [sender_0_0]: exit by launch_test[0m
+[INFO] [ssh-10]: sending signal 'SIGINT' to process[ssh-10]
+[INFO] [ssh-9]: sending signal 'SIGINT' to process[ssh-9]
+[INFO] [ssh-10]: process has finished cleanly [pid 8219]
+[INFO] [ssh-9]: process has finished cleanly [pid 8218]
+
+Starting test run test_remote.test_remote.launch_tests[256KB, 1]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-02-18-03-07-51-739576-skylake-7880
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ssh-11]: process started with pid [8301]
+[INFO] [ssh-12]: process started with pid [8302]
+[ssh-11] ========================================================================================
+[ssh-11] Report      : WARNING
+[ssh-11] Date        : 2020-02-18T03:10:07+0000
+[ssh-11] Description : using network interface enp0s31f6 (43.4.1.195) selected arbitrarily from: enp0s31f6, docker0
+[ssh-11] 
+[ssh-11] Node        : skylake
+[ssh-11] Process     : receiver <8356>
+[ssh-11] Thread      : ddsi2 7f2304536700
+[ssh-11] Internals   : 6.9.190705OSS///ddsi2/q_nwif.c/989/0/1581995407.060470598/28
+[ssh-12] ========================================================================================
+[ssh-12] Report      : WARNING
+[ssh-12] Date        : 2020-02-18T03:10:07+0000
+[ssh-12] Description : using network interface eno1 (43.4.2.253) selected arbitrarily from: eno1, docker0
+[ssh-12] 
+[ssh-12] Node        : ubuntu1804-PowerEdge-T110-II
+[ssh-12] Process     : sender <7773>
+[ssh-12] Thread      : ddsi2 7ff3468b0700
+[ssh-12] Internals   : 6.9.190705OSS///ddsi2/q_nwif.c/989/0/1581995407.257401839/28
+[ssh-12] [0m[INFO] [1581995418.367364585] [sender_1_1]: Ready to send test data message for topic /TOPIC_256KB_1[0m
+[ssh-12] [0m[INFO] [1581995428.369476526] [sender_1_1]: Send 100 messages with frequency 10.000000[0m
+[ssh-12] [0m[INFO] [1581995433.369657057] [sender_1_1]: Send finished message[0m
+[ssh-11] [0m[INFO] [1581995433.370413629] [receiver_1_0]: Receive finish message[0m
+[ssh-11] [0m[INFO] [1581995433.370745325] [receiver_1_0]: Send result message[0m
+[ssh-12] [0m[INFO] [1581995433.371314871] [sender_1_1]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_256KB_1 with message_size(256KB), loop_count(100), frequency(10.000000)[0m
+[ssh-12] [0m[INFO] [1581995433.371399074] [sender_1_1]:            name                          ,   average(s),       min(s),       max(s),   lost count[0m
+[ssh-12] [0m[INFO] [1581995433.371441744] [sender_1_1]: get result PowerEdge-T110-II-TO-skylake  ,  0.004920695,  0.004511051,  0.006742753,            0[0m
+[ssh-12] [0m[INFO] [1581995433.371492333] [sender_1_1]: exit by launch_test[0m
+[INFO] [ssh-12]: sending signal 'SIGINT' to process[ssh-12]
+[INFO] [ssh-11]: sending signal 'SIGINT' to process[ssh-11]
+[INFO] [ssh-12]: process has finished cleanly [pid 8302]
+[INFO] [ssh-11]: process has finished cleanly [pid 8301]
+
+Starting test run test_remote.test_remote.launch_tests[2MB, 0]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-02-18-03-07-51-739576-skylake-7880
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ssh-13]: process started with pid [8384]
+[INFO] [ssh-14]: process started with pid [8385]
+[ssh-13] ========================================================================================
+[ssh-13] Report      : WARNING
+[ssh-13] Date        : 2020-02-18T03:10:34+0000
+[ssh-13] Description : using network interface enp0s31f6 (43.4.1.195) selected arbitrarily from: enp0s31f6, docker0
+[ssh-13] 
+[ssh-13] Node        : skylake
+[ssh-13] Process     : sender <8439>
+[ssh-13] Thread      : ddsi2 7f901c28c700
+[ssh-13] Internals   : 6.9.190705OSS///ddsi2/q_nwif.c/989/0/1581995434.101823086/28
+[ssh-14] ========================================================================================
+[ssh-14] Report      : WARNING
+[ssh-14] Date        : 2020-02-18T03:10:34+0000
+[ssh-14] Description : using network interface eno1 (43.4.2.253) selected arbitrarily from: eno1, docker0
+[ssh-14] 
+[ssh-14] Node        : ubuntu1804-PowerEdge-T110-II
+[ssh-14] Process     : receiver <7854>
+[ssh-14] Thread      : ddsi2 7f0d22886700
+[ssh-14] Internals   : 6.9.190705OSS///ddsi2/q_nwif.c/989/0/1581995434.295903324/28
+[ssh-13] [0m[INFO] [1581995445.216610886] [sender_0_0]: Ready to send test data message for topic /TOPIC_2MB_0[0m
+[ssh-13] [0m[INFO] [1581995455.230746298] [sender_0_0]: Send 100 messages with frequency 10.000000[0m
+[ssh-13] [0m[INFO] [1581995460.231000767] [sender_0_0]: Send finished message[0m
+[ssh-14] [0m[INFO] [1581995460.231659335] [receiver_0_1]: Receive finish message[0m
+[ssh-14] [0m[INFO] [1581995460.231814256] [receiver_0_1]: Send result message[0m
+[ssh-13] [0m[INFO] [1581995460.232494182] [sender_0_0]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_2MB_0 with message_size(2MB), loop_count(100), frequency(10.000000)[0m
+[ssh-13] [0m[INFO] [1581995460.232650042] [sender_0_0]:            name                          ,   average(s),       min(s),       max(s),   lost count[0m
+[ssh-13] [0m[INFO] [1581995460.232747898] [sender_0_0]: get result skylake-TO-PowerEdge-T110-II  ,  0.036072366,  0.032202627,  0.039134123,            0[0m
+[ssh-13] [0m[INFO] [1581995460.232856495] [sender_0_0]: exit by launch_test[0m
+[INFO] [ssh-14]: sending signal 'SIGINT' to process[ssh-14]
+[INFO] [ssh-13]: sending signal 'SIGINT' to process[ssh-13]
+[INFO] [ssh-13]: process has finished cleanly [pid 8384]
+[INFO] [ssh-14]: process has finished cleanly [pid 8385]
+
+Starting test run test_remote.test_remote.launch_tests[2MB, 1]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-02-18-03-07-51-739576-skylake-7880
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ssh-15]: process started with pid [8467]
+[INFO] [ssh-16]: process started with pid [8468]
+[ssh-15] ========================================================================================
+[ssh-15] Report      : WARNING
+[ssh-15] Date        : 2020-02-18T03:11:00+0000
+[ssh-15] Description : using network interface enp0s31f6 (43.4.1.195) selected arbitrarily from: enp0s31f6, docker0
+[ssh-15] 
+[ssh-15] Node        : skylake
+[ssh-15] Process     : receiver <8522>
+[ssh-15] Thread      : ddsi2 7f24e32c1700
+[ssh-15] Internals   : 6.9.190705OSS///ddsi2/q_nwif.c/989/0/1581995460.931839784/28
+[ssh-16] ========================================================================================
+[ssh-16] Report      : WARNING
+[ssh-16] Date        : 2020-02-18T03:11:01+0000
+[ssh-16] Description : using network interface eno1 (43.4.2.253) selected arbitrarily from: eno1, docker0
+[ssh-16] 
+[ssh-16] Node        : ubuntu1804-PowerEdge-T110-II
+[ssh-16] Process     : sender <7934>
+[ssh-16] Thread      : ddsi2 7fea84324700
+[ssh-16] Internals   : 6.9.190705OSS///ddsi2/q_nwif.c/989/0/1581995461.165302508/28
+[ssh-16] [0m[INFO] [1581995472.278477562] [sender_1_1]: Ready to send test data message for topic /TOPIC_2MB_1[0m
+[ssh-16] [0m[INFO] [1581995482.287251073] [sender_1_1]: Send 100 messages with frequency 10.000000[0m
+[ssh-16] [0m[INFO] [1581995487.287439969] [sender_1_1]: Send finished message[0m
+[ssh-15] [0m[INFO] [1581995487.288260501] [receiver_1_0]: Receive finish message[0m
+[ssh-15] [0m[INFO] [1581995487.288544332] [receiver_1_0]: Send result message[0m
+[ssh-16] [0m[INFO] [1581995487.289199729] [sender_1_1]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_2MB_1 with message_size(2MB), loop_count(100), frequency(10.000000)[0m
+[ssh-16] [0m[INFO] [1581995487.289283806] [sender_1_1]:            name                          ,   average(s),       min(s),       max(s),   lost count[0m
+[ssh-16] [0m[INFO] [1581995487.289324519] [sender_1_1]: get result PowerEdge-T110-II-TO-skylake  ,  0.042732789,  0.038068501,  0.046273481,            0[0m
+[ssh-16] [0m[INFO] [1581995487.289376107] [sender_1_1]: exit by launch_test[0m
+[INFO] [ssh-16]: sending signal 'SIGINT' to process[ssh-16]
+[INFO] [ssh-15]: sending signal 'SIGINT' to process[ssh-15]
+[INFO] [ssh-16]: process has finished cleanly [pid 8468]
+[INFO] [ssh-15]: process has finished cleanly [pid 8467]
+
+Starting test run test_remote.test_remote.launch_tests[8MB, 0]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-02-18-03-07-51-739576-skylake-7880
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ssh-17]: process started with pid [8550]
+[INFO] [ssh-18]: process started with pid [8551]
+[ssh-17] ========================================================================================
+[ssh-17] Report      : WARNING
+[ssh-17] Date        : 2020-02-18T03:11:28+0000
+[ssh-17] Description : using network interface enp0s31f6 (43.4.1.195) selected arbitrarily from: enp0s31f6, docker0
+[ssh-17] 
+[ssh-17] Node        : skylake
+[ssh-17] Process     : sender <8605>
+[ssh-17] Thread      : ddsi2 7f7cd65b0700
+[ssh-17] Internals   : 6.9.190705OSS///ddsi2/q_nwif.c/989/0/1581995488.016944470/28
+[ssh-18] ========================================================================================
+[ssh-18] Report      : WARNING
+[ssh-18] Date        : 2020-02-18T03:11:28+0000
+[ssh-18] Description : using network interface eno1 (43.4.2.253) selected arbitrarily from: eno1, docker0
+[ssh-18] 
+[ssh-18] Node        : ubuntu1804-PowerEdge-T110-II
+[ssh-18] Process     : receiver <8014>
+[ssh-18] Thread      : ddsi2 7ffa7e58c700
+[ssh-18] Internals   : 6.9.190705OSS///ddsi2/q_nwif.c/989/0/1581995488.219321200/28
+[ssh-17] [0m[INFO] [1581995499.133801342] [sender_0_0]: Ready to send test data message for topic /TOPIC_8MB_0[0m
+[ssh-17] [0m[INFO] [1581995509.174876023] [sender_0_0]: Send 100 messages with frequency 10.000000[0m
+[ssh-17] [0m[INFO] [1581995514.175080392] [sender_0_0]: Send finished message[0m
+[ssh-18] [0m[INFO] [1581995514.175935025] [receiver_0_1]: Receive finish message[0m
+[ssh-18] [0m[INFO] [1581995514.176125719] [receiver_0_1]: Send result message[0m
+[ssh-17] [0m[INFO] [1581995514.176746137] [sender_0_0]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_8MB_0 with message_size(8MB), loop_count(100), frequency(10.000000)[0m
+[ssh-17] [0m[INFO] [1581995514.176888867] [sender_0_0]:            name                          ,   average(s),       min(s),       max(s),   lost count[0m
+[ssh-17] [0m[INFO] [1581995514.176975984] [sender_0_0]: get result skylake-TO-PowerEdge-T110-II  ,  0.126752947,  0.114327771,  0.143259618,            2[0m
+[ssh-17] [0m[INFO] [1581995514.177067054] [sender_0_0]: exit by launch_test[0m
+[INFO] [ssh-18]: sending signal 'SIGINT' to process[ssh-18]
+[INFO] [ssh-17]: sending signal 'SIGINT' to process[ssh-17]
+[INFO] [ssh-18]: process has finished cleanly [pid 8551]
+[INFO] [ssh-17]: process has finished cleanly [pid 8550]
+
+Starting test run test_remote.test_remote.launch_tests[8MB, 1]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-02-18-03-07-51-739576-skylake-7880
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ssh-19]: process started with pid [8634]
+[INFO] [ssh-20]: process started with pid [8635]
+[ssh-19] ========================================================================================
+[ssh-19] Report      : WARNING
+[ssh-19] Date        : 2020-02-18T03:11:54+0000
+[ssh-19] Description : using network interface enp0s31f6 (43.4.1.195) selected arbitrarily from: enp0s31f6, docker0
+[ssh-19] 
+[ssh-19] Node        : skylake
+[ssh-19] Process     : receiver <8689>
+[ssh-19] Thread      : ddsi2 7fbad5183700
+[ssh-19] Internals   : 6.9.190705OSS///ddsi2/q_nwif.c/989/0/1581995514.914257049/28
+[ssh-20] ========================================================================================
+[ssh-20] Report      : WARNING
+[ssh-20] Date        : 2020-02-18T03:11:55+0000
+[ssh-20] Description : using network interface eno1 (43.4.2.253) selected arbitrarily from: eno1, docker0
+[ssh-20] 
+[ssh-20] Node        : ubuntu1804-PowerEdge-T110-II
+[ssh-20] Process     : sender <8094>
+[ssh-20] Thread      : ddsi2 7ff3c41af700
+[ssh-20] Internals   : 6.9.190705OSS///ddsi2/q_nwif.c/989/0/1581995515.108630991/28
+[ssh-20] [0m[INFO] [1581995526.221935631] [sender_1_1]: Ready to send test data message for topic /TOPIC_8MB_1[0m
+[ssh-20] [0m[INFO] [1581995536.236649821] [sender_1_1]: Send 100 messages with frequency 10.000000[0m
+[ssh-20] [0m[INFO] [1581995541.236857843] [sender_1_1]: Send finished message[0m
+[ssh-19] [0m[INFO] [1581995541.237536202] [receiver_1_0]: Receive finish message[0m
+[ssh-19] [0m[INFO] [1581995541.237858712] [receiver_1_0]: Send result message[0m
+[ssh-20] [0m[INFO] [1581995541.238617542] [sender_1_1]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_8MB_1 with message_size(8MB), loop_count(100), frequency(10.000000)[0m
+[ssh-20] [0m[INFO] [1581995541.238716199] [sender_1_1]:            name                          ,   average(s),       min(s),       max(s),   lost count[0m
+[ssh-20] [0m[INFO] [1581995541.238757694] [sender_1_1]: get result PowerEdge-T110-II-TO-skylake  ,  0.147410883,  0.127014102,  0.158759895,            7[0m
+[ssh-20] [0m[INFO] [1581995541.238810063] [sender_1_1]: exit by launch_test[0m
+[INFO] [ssh-20]: sending signal 'SIGINT' to process[ssh-20]
+[INFO] [ssh-19]: sending signal 'SIGINT' to process[ssh-19]
+[INFO] [ssh-19]: process has finished cleanly [pid 8634]
+[INFO] [ssh-20]: process has finished cleanly [pid 8635]

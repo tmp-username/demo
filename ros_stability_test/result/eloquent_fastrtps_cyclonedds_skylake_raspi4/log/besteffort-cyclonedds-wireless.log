@@ -1,0 +1,319 @@
+Starting test run test_remote.test_remote.launch_tests[4KB, 0]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-03-30-08-18-19-216757-skylake-17297
+[INFO] [launch]: Default logging verbosity is set to INFO
+test_process_output[4KB, 0] (test_remote.TestGoodProcess) ... [INFO] [ssh-1]: process started with pid [17302]
+[INFO] [ssh-2]: process started with pid [17303]
+[ssh-1] [INFO] [1585556309.899186882] [sender_0_0]: Ready to send test data message for topic /TOPIC_4KB_0
+[ssh-1] [INFO] [1585556319.899747478] [sender_0_0]: Send 100 messages with frequency 10.000000
+[ssh-1] [INFO] [1585556324.899985282] [sender_0_0]: Send finished message
+[ssh-2] [INFO] [1585556324.905895432] [receiver_0_1]: Receive finish message
+[ssh-2] [INFO] [1585556324.906336096] [receiver_0_1]: Send result message
+[ssh-1] [INFO] [1585556324.908719784] [sender_0_0]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_4KB_0 with message_size(4KB), loop_count(100), frequency(10.000000)
+[ssh-1] [INFO] [1585556324.908815929] [sender_0_0]:            name                          ,   average(s),       min(s),       max(s),   lost count
+[ssh-1] [INFO] [1585556324.908856524] [sender_0_0]: get result skylake-TO-ubuntu             ,  0.011968319,  0.005798608,  0.053745701,            0
+[ssh-1] [INFO] [1585556324.908900680] [sender_0_0]: exit by launch_test
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 25.690s
+
+OK
+[INFO] [ssh-2]: sending signal 'SIGINT' to process[ssh-2]
+[INFO] [ssh-1]: sending signal 'SIGINT' to process[ssh-1]
+[INFO] [ssh-1]: process has finished cleanly [pid 17302]
+[INFO] [ssh-2]: process has finished cleanly [pid 17303]
+test_exit_code[4KB, 0] (test_remote.TestProcessOutput) ... ok
+test_full_output[4KB, 0] (test_remote.TestProcessOutput) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+
+Starting test run test_remote.test_remote.launch_tests[4KB, 1]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-03-30-08-18-19-216757-skylake-17297
+[INFO] [launch]: Default logging verbosity is set to INFO
+test_process_output[4KB, 1] (test_remote.TestGoodProcess) ... [INFO] [ssh-3]: process started with pid [17377]
+[INFO] [ssh-4]: process started with pid [17378]
+[ssh-4] [INFO] [1585556338.417382716] [sender_1_1]: Ready to send test data message for topic /TOPIC_4KB_1
+[ssh-4] [INFO] [1585556348.418183132] [sender_1_1]: Send 100 messages with frequency 10.000000
+[ssh-4] [INFO] [1585556353.418565849] [sender_1_1]: Send finished message
+[ssh-3] [INFO] [1585556353.469346288] [receiver_1_0]: Receive finish message
+[ssh-3] [INFO] [1585556353.469646243] [receiver_1_0]: Send result message
+[ssh-4] [INFO] [1585556353.473580923] [sender_1_1]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_4KB_1 with message_size(4KB), loop_count(100), frequency(10.000000)
+[ssh-4] [INFO] [1585556353.473790218] [sender_1_1]:            name                          ,   average(s),       min(s),       max(s),   lost count
+[ssh-4] [INFO] [1585556353.473904032] [sender_1_1]: get result ubuntu-TO-skylake             ,  0.006941308,  0.004018030,  0.084437314,            0
+[ssh-4] [INFO] [1585556353.474034550] [sender_1_1]: exit by launch_test
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 28.557s
+
+OK
+[INFO] [ssh-4]: sending signal 'SIGINT' to process[ssh-4]
+[INFO] [ssh-3]: sending signal 'SIGINT' to process[ssh-3]
+[INFO] [ssh-4]: process has finished cleanly [pid 17378]
+[INFO] [ssh-3]: process has finished cleanly [pid 17377]
+test_exit_code[4KB, 1] (test_remote.TestProcessOutput) ... ok
+test_full_output[4KB, 1] (test_remote.TestProcessOutput) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+
+Starting test run test_remote.test_remote.launch_tests[64KB, 0]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-03-30-08-18-19-216757-skylake-17297
+[INFO] [launch]: Default logging verbosity is set to INFO
+test_process_output[64KB, 0] (test_remote.TestGoodProcess) ... [INFO] [ssh-5]: process started with pid [17453]
+[INFO] [ssh-6]: process started with pid [17455]
+[ssh-5] [INFO] [1585556364.226551567] [sender_0_0]: Ready to send test data message for topic /TOPIC_64KB_0
+[ssh-5] [INFO] [1585556374.327378042] [sender_0_0]: Send 100 messages with frequency 10.000000
+[ssh-5] [INFO] [1585556379.327651692] [sender_0_0]: Send finished message
+[ssh-6] [INFO] [1585556379.336432423] [receiver_0_1]: Receive finish message
+[ssh-6] [INFO] [1585556379.336859347] [receiver_0_1]: Send result message
+[ssh-5] [INFO] [1585556379.340833480] [sender_0_0]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_64KB_0 with message_size(64KB), loop_count(100), frequency(10.000000)
+[ssh-5] [INFO] [1585556379.340935957] [sender_0_0]:            name                          ,   average(s),       min(s),       max(s),   lost count
+[ssh-5] [INFO] [1585556379.341000432] [sender_0_0]: get result skylake-TO-ubuntu             ,  0.071621707,  0.017508515,  0.382829085,            3
+[ssh-5] [INFO] [1585556379.341076410] [sender_0_0]: exit by launch_test
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 25.850s
+
+OK
+[INFO] [ssh-6]: sending signal 'SIGINT' to process[ssh-6]
+[INFO] [ssh-5]: sending signal 'SIGINT' to process[ssh-5]
+[INFO] [ssh-6]: process has finished cleanly [pid 17455]
+[INFO] [ssh-5]: process has finished cleanly [pid 17453]
+test_exit_code[64KB, 0] (test_remote.TestProcessOutput) ... ok
+test_full_output[64KB, 0] (test_remote.TestProcessOutput) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+
+Starting test run test_remote.test_remote.launch_tests[64KB, 1]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-03-30-08-18-19-216757-skylake-17297
+[INFO] [launch]: Default logging verbosity is set to INFO
+test_process_output[64KB, 1] (test_remote.TestGoodProcess) ... [INFO] [ssh-7]: process started with pid [17527]
+[INFO] [ssh-8]: process started with pid [17529]
+[ssh-8] [INFO] [1585556392.897662852] [sender_1_1]: Ready to send test data message for topic /TOPIC_64KB_1
+[ssh-8] [INFO] [1585556402.899338379] [sender_1_1]: Send 100 messages with frequency 10.000000
+[ssh-8] [INFO] [1585556407.899749528] [sender_1_1]: Send finished message
+[ssh-7] [INFO] [1585556407.933052753] [receiver_1_0]: Receive finish message
+[ssh-7] [INFO] [1585556407.933281056] [receiver_1_0]: Send result message
+[ssh-8] [INFO] [1585556407.938886759] [sender_1_1]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_64KB_1 with message_size(64KB), loop_count(100), frequency(10.000000)
+[ssh-8] [INFO] [1585556407.939087702] [sender_1_1]:            name                          ,   average(s),       min(s),       max(s),   lost count
+[ssh-8] [INFO] [1585556407.939199979] [sender_1_1]: get result ubuntu-TO-skylake             ,  0.022264924,  0.015060503,  0.125686311,            0
+[ssh-8] [INFO] [1585556407.939327719] [sender_1_1]: exit by launch_test
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 28.591s
+
+OK
+[INFO] [ssh-8]: sending signal 'SIGINT' to process[ssh-8]
+[INFO] [ssh-7]: sending signal 'SIGINT' to process[ssh-7]
+[INFO] [ssh-7]: process has finished cleanly [pid 17527]
+[INFO] [ssh-8]: process has finished cleanly [pid 17529]
+test_exit_code[64KB, 1] (test_remote.TestProcessOutput) ... ok
+test_full_output[64KB, 1] (test_remote.TestProcessOutput) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+
+Starting test run test_remote.test_remote.launch_tests[256KB, 0]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-03-30-08-18-19-216757-skylake-17297
+[INFO] [launch]: Default logging verbosity is set to INFO
+test_process_output[256KB, 0] (test_remote.TestGoodProcess) ... [INFO] [ssh-9]: process started with pid [17601]
+[INFO] [ssh-10]: process started with pid [17602]
+[ssh-9] [INFO] [1585556418.732243149] [sender_0_0]: Ready to send test data message for topic /TOPIC_256KB_0
+[ssh-9] [INFO] [1585556431.242835721] [sender_0_0]: Send 100 messages with frequency 10.000000
+[ssh-9] [INFO] [1585556436.243239879] [sender_0_0]: Send finished message
+[ssh-10] [INFO] [1585556436.250111458] [receiver_0_1]: Receive finish message
+[ssh-10] [INFO] [1585556436.250539270] [receiver_0_1]: Send result message
+[ssh-9] [INFO] [1585556436.254844976] [sender_0_0]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_256KB_0 with message_size(256KB), loop_count(100), frequency(10.000000)
+[ssh-9] [INFO] [1585556436.254941150] [sender_0_0]:            name                          ,   average(s),       min(s),       max(s),   lost count
+[ssh-9] [INFO] [1585556436.254983488] [sender_0_0]: get result skylake-TO-ubuntu             ,  0.300020555,  0.124539597,  0.632862710,           76
+[ssh-9] [INFO] [1585556436.255027085] [sender_0_0]: exit by launch_test
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 28.305s
+
+OK
+[INFO] [ssh-10]: sending signal 'SIGINT' to process[ssh-10]
+[INFO] [ssh-9]: sending signal 'SIGINT' to process[ssh-9]
+[INFO] [ssh-10]: process has finished cleanly [pid 17602]
+[INFO] [ssh-9]: process has finished cleanly [pid 17601]
+test_exit_code[256KB, 0] (test_remote.TestProcessOutput) ... ok
+test_full_output[256KB, 0] (test_remote.TestProcessOutput) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+
+Starting test run test_remote.test_remote.launch_tests[256KB, 1]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-03-30-08-18-19-216757-skylake-17297
+[INFO] [launch]: Default logging verbosity is set to INFO
+test_process_output[256KB, 1] (test_remote.TestGoodProcess) ... [INFO] [ssh-11]: process started with pid [17675]
+[INFO] [ssh-12]: process started with pid [17676]
+[ssh-12] [INFO] [1585556449.827927823] [sender_1_1]: Ready to send test data message for topic /TOPIC_256KB_1
+[ssh-12] [INFO] [1585556459.840286388] [sender_1_1]: Send 100 messages with frequency 10.000000
+[ssh-12] [INFO] [1585556464.841228885] [sender_1_1]: Send finished message
+[ssh-11] [INFO] [1585556464.872254719] [receiver_1_0]: Receive finish message
+[ssh-11] [INFO] [1585556464.872500224] [receiver_1_0]: Send result message
+[ssh-12] [INFO] [1585556464.890016623] [sender_1_1]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_256KB_1 with message_size(256KB), loop_count(100), frequency(10.000000)
+[ssh-12] [INFO] [1585556464.890214678] [sender_1_1]:            name                          ,   average(s),       min(s),       max(s),   lost count
+[ssh-12] [INFO] [1585556464.890326529] [sender_1_1]: get result ubuntu-TO-skylake             ,  0.074780722,  0.050904280,  0.159862206,           38
+[ssh-12] [INFO] [1585556464.890454565] [sender_1_1]: exit by launch_test
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 28.627s
+
+OK
+[INFO] [ssh-12]: sending signal 'SIGINT' to process[ssh-12]
+[INFO] [ssh-11]: sending signal 'SIGINT' to process[ssh-11]
+[INFO] [ssh-12]: process has finished cleanly [pid 17676]
+[INFO] [ssh-11]: process has finished cleanly [pid 17675]
+test_exit_code[256KB, 1] (test_remote.TestProcessOutput) ... ok
+test_full_output[256KB, 1] (test_remote.TestProcessOutput) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+
+Starting test run test_remote.test_remote.launch_tests[2MB, 0]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-03-30-08-18-19-216757-skylake-17297
+[INFO] [launch]: Default logging verbosity is set to INFO
+test_process_output[2MB, 0] (test_remote.TestGoodProcess) ... [INFO] [ssh-13]: process started with pid [17749]
+[INFO] [ssh-14]: process started with pid [17751]
+[ssh-13] [INFO] [1585556475.634126366] [sender_0_0]: Ready to send test data message for topic /TOPIC_2MB_0
+[ssh-13] [INFO] [1585556525.328999484] [sender_0_0]: Send 100 messages with frequency 10.000000
+[ssh-13] [INFO] [1585556530.329797479] [sender_0_0]: Send finished message
+[ssh-14] [INFO] [1585556530.336574917] [receiver_0_1]: Receive finish message
+[ssh-14] [INFO] [1585556530.337019174] [receiver_0_1]: Send result message
+[ssh-13] [INFO] [1585556530.339354476] [sender_0_0]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_2MB_0 with message_size(2MB), loop_count(100), frequency(10.000000)
+[ssh-13] [INFO] [1585556530.339497171] [sender_0_0]:            name                          ,   average(s),       min(s),       max(s),   lost count
+[ssh-13] [INFO] [1585556530.339549635] [sender_0_0]: get result skylake-TO-ubuntu             ,  0.000000000,  0.000000000,  0.000000000,          100
+[ssh-13] [INFO] [1585556530.339601462] [sender_0_0]: exit by launch_test
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 65.438s
+
+OK
+[INFO] [ssh-14]: sending signal 'SIGINT' to process[ssh-14]
+[INFO] [ssh-13]: sending signal 'SIGINT' to process[ssh-13]
+[INFO] [ssh-14]: process has finished cleanly [pid 17751]
+[INFO] [ssh-13]: process has finished cleanly [pid 17749]
+test_exit_code[2MB, 0] (test_remote.TestProcessOutput) ... ok
+test_full_output[2MB, 0] (test_remote.TestProcessOutput) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+
+Starting test run test_remote.test_remote.launch_tests[2MB, 1]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-03-30-08-18-19-216757-skylake-17297
+[INFO] [launch]: Default logging verbosity is set to INFO
+test_process_output[2MB, 1] (test_remote.TestGoodProcess) ... [INFO] [ssh-15]: process started with pid [17823]
+[INFO] [ssh-16]: process started with pid [17824]
+[ssh-16] [INFO] [1585556543.862763260] [sender_1_1]: Ready to send test data message for topic /TOPIC_2MB_1
+[ssh-16] [INFO] [1585556571.575574688] [sender_1_1]: Send 100 messages with frequency 10.000000
+[ssh-16] [INFO] [1585556576.577407860] [sender_1_1]: Send finished message
+[ssh-15] [INFO] [1585556576.600569697] [receiver_1_0]: Receive finish message
+[ssh-15] [INFO] [1585556576.600821040] [receiver_1_0]: Send result message
+[ssh-16] [INFO] [1585556576.608578723] [sender_1_1]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_2MB_1 with message_size(2MB), loop_count(100), frequency(10.000000)
+[ssh-16] [INFO] [1585556576.608775999] [sender_1_1]:            name                          ,   average(s),       min(s),       max(s),   lost count
+[ssh-16] [INFO] [1585556576.608888536] [sender_1_1]: get result ubuntu-TO-skylake             ,  0.000000000,  0.000000000,  0.000000000,          100
+[ssh-16] [INFO] [1585556576.609008887] [sender_1_1]: exit by launch_test
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 46.261s
+
+OK
+[INFO] [ssh-16]: sending signal 'SIGINT' to process[ssh-16]
+[INFO] [ssh-15]: sending signal 'SIGINT' to process[ssh-15]
+[INFO] [ssh-16]: process has finished cleanly [pid 17824]
+[INFO] [ssh-15]: process has finished cleanly [pid 17823]
+test_exit_code[2MB, 1] (test_remote.TestProcessOutput) ... ok
+test_full_output[2MB, 1] (test_remote.TestProcessOutput) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+
+Starting test run test_remote.test_remote.launch_tests[8MB, 0]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-03-30-08-18-19-216757-skylake-17297
+[INFO] [launch]: Default logging verbosity is set to INFO
+test_process_output[8MB, 0] (test_remote.TestGoodProcess) ... [INFO] [ssh-17]: process started with pid [17898]
+[INFO] [ssh-18]: process started with pid [17901]
+[ssh-17] [INFO] [1585556587.357206581] [sender_0_0]: Ready to send test data message for topic /TOPIC_8MB_0
+[ssh-17] [INFO] [1585556773.591855533] [sender_0_0]: Send 100 messages with frequency 10.000000
+[ssh-17] [INFO] [1585556778.593977944] [sender_0_0]: Send finished message
+[ssh-18] [INFO] [1585556778.602707408] [receiver_0_1]: Receive finish message
+[ssh-18] [INFO] [1585556778.603151332] [receiver_0_1]: Send result message
+[ssh-17] [INFO] [1585556778.610695214] [sender_0_0]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_8MB_0 with message_size(8MB), loop_count(100), frequency(10.000000)
+[ssh-17] [INFO] [1585556778.610787730] [sender_0_0]:            name                          ,   average(s),       min(s),       max(s),   lost count
+[ssh-17] [INFO] [1585556778.610841800] [sender_0_0]: get result skylake-TO-ubuntu             ,  0.000000000,  0.000000000,  0.000000000,          100
+[ssh-17] [INFO] [1585556778.610903755] [sender_0_0]: exit by launch_test
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 201.990s
+
+OK
+[INFO] [ssh-18]: sending signal 'SIGINT' to process[ssh-18]
+[INFO] [ssh-17]: sending signal 'SIGINT' to process[ssh-17]
+[INFO] [ssh-17]: process has finished cleanly [pid 17898]
+[INFO] [ssh-18]: process has finished cleanly [pid 17901]
+test_exit_code[8MB, 0] (test_remote.TestProcessOutput) ... ok
+test_full_output[8MB, 0] (test_remote.TestProcessOutput) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+
+Starting test run test_remote.test_remote.launch_tests[8MB, 1]
+[INFO] [launch]: All log files can be found below /root/.ros/log/2020-03-30-08-18-19-216757-skylake-17297
+[INFO] [launch]: Default logging verbosity is set to INFO
+test_process_output[8MB, 1] (test_remote.TestGoodProcess) ... [INFO] [ssh-19]: process started with pid [17972]
+[INFO] [ssh-20]: process started with pid [17974]
+[ssh-20] [INFO] [1585556792.243154477] [sender_1_1]: Ready to send test data message for topic /TOPIC_8MB_1
+[ssh-20] [INFO] [1585556908.392415885] [sender_1_1]: Send 100 messages with frequency 10.000000
+[ssh-20] [INFO] [1585556913.398409729] [sender_1_1]: Send finished message
+[ssh-19] [INFO] [1585556913.498337580] [receiver_1_0]: Receive finish message
+[ssh-19] [INFO] [1585556913.498607695] [receiver_1_0]: Send result message
+[ssh-20] [INFO] [1585556913.506027033] [sender_1_1]: Publisher:Subscriber(s)=1:1, test result of topic /TOPIC_8MB_1 with message_size(8MB), loop_count(100), frequency(10.000000)
+[ssh-20] [INFO] [1585556913.506247329] [sender_1_1]:            name                          ,   average(s),       min(s),       max(s),   lost count
+[ssh-20] [INFO] [1585556913.506365662] [sender_1_1]: get result ubuntu-TO-skylake             ,  0.000000000,  0.000000000,  0.000000000,          100
+[ssh-20] [INFO] [1585556913.506488920] [sender_1_1]: exit by launch_test
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 134.887s
+
+OK
+[INFO] [ssh-20]: sending signal 'SIGINT' to process[ssh-20]
+[INFO] [ssh-19]: sending signal 'SIGINT' to process[ssh-19]
+[INFO] [ssh-19]: process has finished cleanly [pid 17972]
+[INFO] [ssh-20]: process has finished cleanly [pid 17974]
+test_exit_code[8MB, 1] (test_remote.TestProcessOutput) ... ok
+test_full_output[8MB, 1] (test_remote.TestProcessOutput) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
